@@ -1,0 +1,23 @@
+header {
+    background: url(../assets/images/code.jpeg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;
+    color: #eeeeee;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.header-title {
+    text-align: center;
+    background-color: #2D2D2D;
+    text-shadow: 4px 4px black;
+}
+
+h2 {
+    text-shadow: 2px 2px #154454;
+    font-size: 40px;
+    text-align: center;
+}

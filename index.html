@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/logo.svg">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Proyecto-Final</title>
+</head>
+<body class="dark-theme">
+
+    <nav>
+        <span class="go-home">
+            <svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="tec1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="tec2"></polygon>
+            </svg>
+        </span>
+        <ul class="menu">
+            <li class="item-menu">
+                <span class="item-link go-history">HISTORIA</span>
+            </li>
+            <li class="item-menu">
+                <span class="item-link go-game">JUGUEMOS</span>
+            </li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1 class="header-title"></h1>
+    </header>
+
+    <div class="home">
+        <h2>CONTENIDO</h2>
+        <main class="home-body">
+            <div class="card">
+                <img src="./assets/images/card1.jpg" alt="historia de la programacion">
+                <p class="card-description">Conozcamos Un poco sobre la historia de la programacion</p>
+                <span class="card-button go-history">Ir a Historia</span>
+            </div>
+            <div class="card">
+                <img src="./assets/images/card2.jpg" alt="juego de programacion">
+                <p class="card-description">Juguemos un poco sobre la computacion</p>
+                <span class="card-button go-game">Ir a juego</span>
+            </div>
+        </main>
+    </div>
+
+    <div class="history">
+        <main class="history-container">
+            <div class="history-field">
+                <h2>El principio de la historia de la programación</h2>
+                <p class="history-text">El primer lenguaje de programación fue un algoritmo creado por Ada Lovelace en
+                    1883.
+                    Ada Lovelace creó este algoritmo para el motor analítico de Charles Babbage.
+                    El propósito de este algoritmo era calcular los números de Bernoulli.
+                    En 1936, por primera vez, los códigos informáticos fueron especializados por Alonzo Church y Alan
+                    Turing.
+                    Church expresó el cálculo lambda de forma formulativa.</p>
+            </div>
+
+            <div class="history-field">
+                <p class="history-text">Los primeros ordenadores modernos (alimentados eléctricamente) fueron creados en
+                    los
+                    años 40.
+                    Estas computadoras estaban limitadas en velocidad y capacidad de memoria.
+                    <br>Debido a estas limitaciones, los programadores se vieron obligados a escribir manualmente
+                    programas
+                    en lenguaje ensamblador.
+                    Siendo un lenguaje de programación de bajo nivel, era una tarea difícil programarlo manualmente.
+                    Los programadores se dieron cuenta entonces de la necesidad de lenguajes de alto nivel para
+                    disminuir el
+                    esfuerzo que se requería para escribir los programas en lenguaje ensamblador manualmente.
+                </p>
+                <h2>Lenguaje de ensamblaje</h2>
+            </div>
+            <div class="history-field">
+                <h2>Los primeros lenguajes de programación</h2>
+                <div>
+                    <p>FORmulaTRANslation es el lenguaje de programación más antiguo y que continúa en uso. Creada por
+                        John
+                        Backus en 1957, esta herramienta fue desarrollada para la computación científica de alto nivel,
+                        matemáticas y estadísticas.
+                        A día de hoy, este lenguaje se sigue usando en la industria automovilística, aeroespacial,
+                        gubernamental y la investigación. Por ejemplo, es muy útil para el pronóstico de los servicios
+                        meteorológicos.</p>
+                    <p>En 1959 se desarrollo Cobol, que está detrás de la mayoría de los sistemas de transacciones de
+                        negocio de los procesos de las tarjetas de crédito, ATMs (Modo de Transferencia Asíncrona),
+                        telefonía, sistemas hospitalarios, gobierno, sistemas automatizados y señales de tráfico.
+                        <br>
+                        El desarrollo de Cobol, creado por Grace Murray Hopper, muestra un lenguaje famipar y uniforme
+                        para
+                        transacciones empresariales. Por ejemplo, lo usan en el servicio postal estadounidense
+                    </p>
+                    <p>En 1964 se creo Basic, que fue diseñado como un lenguaje simppficado para aquellos que no tenían
+                        como
+                        base fuertes conocimientos técnicos o matemáticos. </p>
+                    <p>Entre 1969 y 1973 se crea <strong>C</strong>,a manos de Dennis Ritchie para los laboratorios Bell
+                        Telephone para usarlos en el sistema Unix. Se le llamó «C» porque sus características derivaban
+                        de
+                        un lenguaje anterior llamado «B».</p>
+                    <p>En los laboratorios Bells, Bjarne Stroustrup modificó el lenguaje C al C++, creando lo que muchos
+                        consideran el lenguaje de programación más popular que ha existido nunca. Además, ha sido
+                        listado en
+                        lo alto de los top ten de los lenguajes de programación desde 1986 y archivado en el Hall of
+                        Fame en
+                        2003. Hoy en día es usado por Firefox, Office y Adobe PDF Reader
+                        <br> Esto dio el puntapie a que se sigan perfeccionando los lenguajes hasta llegar al os
+                        lenguajes
+                        de hoy en dia
+                    </p>
+                </div>
+            </div>
+        </main>
+        <article class="video-container">
+            <h2>Un breve video para complementar lo visto</h2>
+            <section class="video-box">
+                <video width="100%" poster="./assets/images/img-video.jpg">
+                    <source src="./assets/video/historia-Comp.mp4">
+                </video>
+                <div class="video-bar">
+                    <div class="buttons-container">
+                        <button class="play"><img src="./assets/images/play.svg" alt="video programacion"></button>
+                        <button class="pause"><img src="./assets/images/pause.svg" alt="video programacion"></button>
+                    </div>
+                    <div class="video-time"></div>
+                </div>
+            </section>
+        </article>
+    </div>
+
+    <div class="game">
+        <main>
+            <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+            <section class="game-container">
+                <div class="boxes">
+                    <div class="box1">
+                        <p>Arrastre y suelte la imágene aquí</p>
+                    </div>
+                    <div class="box2">
+                        <p>Arrastre y suelte la imágene aquí</p>
+                    </div>
+                    <div class="box3">
+                        <p>Arrastre y suelte la imágene aquí</p>
+                    </div>
+                </div>
+                <div class="images-container">
+                    <img class="image1" src="./assets/images/game2.png">
+                    <img class="image2" src="./assets/images/game1.png">
+                    <img class="image3" src="./assets/images/game3.png">
+                </div>
+            </section>
+            <button class="reset-button">Reiniciar</button>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="tec1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="tec2"></polygon>
+            </svg>
+            <h3 class="footer-title">PROGRAMACION <br> E <br> HISTORIA </h3>
+        </div>
+        <div>Sitio con fines educativos de M.Victoria Lopez - Replicado por Martin Bertello</div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>

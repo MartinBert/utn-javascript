@@ -1,0 +1,50 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 275px;
+    height: 400px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 275px;
+    height: 400px;
+}
+
+.reset-button {
+    box-shadow: 2px 3px #154454;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #F0F5E4;
+    color: #154454;
+    font-weight: 300;
+    display: flex;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px 100px;
+}
